@@ -1,0 +1,33 @@
+.ml-2 {
+    margin-left: 0.5rem;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    flex: 1;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.05);
+    text-align: center;
+    padding: 1rem;
+    margin-top: auto;
+}
+[data-dialog="modalDialogReadMore"] {
+    max-width: 80%;
+    margin: 1.75rem auto;
+}
+
+[data-body="modalBodyReadMore"] {
+    word-wrap: break-word;
+}
